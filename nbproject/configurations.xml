@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="api">
+        <in>baseapi.cpp</in>
+        <in>capi.cpp</in>
+        <in>tesseractmain.cpp</in>
+      </df>
+      <df name="ccmain">
+        <in>adaptions.cpp</in>
+        <in>applybox.cpp</in>
+        <in>control.cpp</in>
+        <in>cube_control.cpp</in>
+        <in>cube_reco_context.cpp</in>
+        <in>cubeclassifier.cpp</in>
+        <in>docqual.cpp</in>
+        <in>equationdetect.cpp</in>
+        <in>fixspace.cpp</in>
+        <in>fixxht.cpp</in>
+        <in>imgscale.cpp</in>
+        <in>ltrresultiterator.cpp</in>
+        <in>osdetect.cpp</in>
+        <in>output.cpp</in>
+        <in>pageiterator.cpp</in>
+        <in>pagesegmain.cpp</in>
+        <in>pagewalk.cpp</in>
+        <in>paragraphs.cpp</in>
+        <in>paramsd.cpp</in>
+        <in>pgedit.cpp</in>
+        <in>recogtraining.cpp</in>
+        <in>reject.cpp</in>
+        <in>resultiterator.cpp</in>
+        <in>scaleimg.cpp</in>
+        <in>tessbox.cpp</in>
+        <in>tessedit.cpp</in>
+        <in>tesseract_cube_combiner.cpp</in>
+        <in>tesseractclass.cpp</in>
+        <in>tessvars.cpp</in>
+        <in>tfacepp.cpp</in>
+        <in>thresholder.cpp</in>
+        <in>werdit.cpp</in>
+      </df>
+      <df name="ccstruct">
+        <in>blobbox.cpp</in>
+        <in>blobs.cpp</in>
+        <in>blread.cpp</in>
+        <in>boxread.cpp</in>
+        <in>boxword.cpp</in>
+        <in>ccstruct.cpp</in>
+        <in>coutln.cpp</in>
+        <in>detlinefit.cpp</in>
+        <in>dppoint.cpp</in>
+        <in>fontinfo.cpp</in>
+        <in>genblob.cpp</in>
+        <in>linlsq.cpp</in>
+        <in>matrix.cpp</in>
+        <in>mod128.cpp</in>
+        <in>normalis.cpp</in>
+        <in>ocrblock.cpp</in>
+        <in>ocrpara.cpp</in>
+        <in>ocrrow.cpp</in>
+        <in>otsuthr.cpp</in>
+        <in>pageres.cpp</in>
+        <in>pdblock.cpp</in>
+        <in>points.cpp</in>
+        <in>polyaprx.cpp</in>
+        <in>polyblk.cpp</in>
+        <in>publictypes.cpp</in>
+        <in>quadlsq.cpp</in>
+        <in>quadratc.cpp</in>
+        <in>quspline.cpp</in>
+        <in>ratngs.cpp</in>
+        <in>rect.cpp</in>
+        <in>rejctmap.cpp</in>
+        <in>seam.cpp</in>
+        <in>split.cpp</in>
+        <in>statistc.cpp</in>
+        <in>stepblob.cpp</in>
+        <in>vecfuncs.cpp</in>
+        <in>werd.cpp</in>
+      </df>
+      <df name="ccutil">
+        <in>ambigs.cpp</in>
+        <in>basedir.cpp</in>
+        <in>bits16.cpp</in>
+        <in>bitvector.cpp</in>
+        <in>ccutil.cpp</in>
+        <in>clst.cpp</in>
+        <in>elst.cpp</in>
+        <in>elst2.cpp</in>
+        <in>errcode.cpp</in>
+        <in>globaloc.cpp</in>
+        <in>hashfn.cpp</in>
+        <in>indexmapbidi.cpp</in>
+        <in>mainblk.cpp</in>
+        <in>memry.cpp</in>
+        <in>params.cpp</in>
+        <in>serialis.cpp</in>
+        <in>strngs.cpp</in>
+        <in>tessdatamanager.cpp</in>
+        <in>tprintf.cpp</in>
+        <in>unichar.cpp</in>
+        <in>unicharmap.cpp</in>
+        <in>unicharset.cpp</in>
+        <in>unicodes.cpp</in>
+      </df>
+      <df name="classify">
+        <in>adaptive.cpp</in>
+        <in>adaptmatch.cpp</in>
+        <in>blobclass.cpp</in>
+        <in>chartoname.cpp</in>
+        <in>classify.cpp</in>
+        <in>cluster.cpp</in>
+        <in>clusttool.cpp</in>
+        <in>cutoffs.cpp</in>
+        <in>errorcounter.cpp</in>
+        <in>extract.cpp</in>
+        <in>featdefs.cpp</in>
+        <in>flexfx.cpp</in>
+        <in>float2int.cpp</in>
+        <in>fpoint.cpp</in>
+        <in>fxdefs.cpp</in>
+        <in>intfeaturedist.cpp</in>
+        <in>intfeaturemap.cpp</in>
+        <in>intfeaturespace.cpp</in>
+        <in>intfx.cpp</in>
+        <in>intmatcher.cpp</in>
+        <in>intproto.cpp</in>
+        <in>kdtree.cpp</in>
+        <in>mastertrainer.cpp</in>
+        <in>mf.cpp</in>
+        <in>mfdefs.cpp</in>
+        <in>mfoutline.cpp</in>
+        <in>mfx.cpp</in>
+        <in>normfeat.cpp</in>
+        <in>normmatch.cpp</in>
+        <in>ocrfeatures.cpp</in>
+        <in>outfeat.cpp</in>
+        <in>picofeat.cpp</in>
+        <in>protos.cpp</in>
+        <in>sampleiterator.cpp</in>
+        <in>shapetable.cpp</in>
+        <in>speckle.cpp</in>
+        <in>tessclassifier.cpp</in>
+        <in>trainingsample.cpp</in>
+        <in>trainingsampleset.cpp</in>
+        <in>xform2d.cpp</in>
+      </df>
+      <df name="cube">
+        <in>altlist.cpp</in>
+        <in>beam_search.cpp</in>
+        <in>bmp_8.cpp</in>
+        <in>cached_file.cpp</in>
+        <in>char_altlist.cpp</in>
+        <in>char_bigrams.cpp</in>
+        <in>char_samp.cpp</in>
+        <in>char_samp_enum.cpp</in>
+        <in>char_samp_set.cpp</in>
+        <in>char_set.cpp</in>
+        <in>classifier_factory.cpp</in>
+        <in>con_comp.cpp</in>
+        <in>conv_net_classifier.cpp</in>
+        <in>cube_line_object.cpp</in>
+        <in>cube_line_segmenter.cpp</in>
+        <in>cube_object.cpp</in>
+        <in>cube_search_object.cpp</in>
+        <in>cube_tuning_params.cpp</in>
+        <in>cube_utils.cpp</in>
+        <in>feature_bmp.cpp</in>
+        <in>feature_chebyshev.cpp</in>
+        <in>feature_hybrid.cpp</in>
+        <in>hybrid_neural_net_classifier.cpp</in>
+        <in>search_column.cpp</in>
+        <in>search_node.cpp</in>
+        <in>tess_lang_mod_edge.cpp</in>
+        <in>tess_lang_model.cpp</in>
+        <in>word_altlist.cpp</in>
+        <in>word_list_lang_model.cpp</in>
+        <in>word_size_model.cpp</in>
+        <in>word_unigrams.cpp</in>
+      </df>
+      <df name="cutil">
+        <in>bitvec.cpp</in>
+        <in>callcpp.cpp</in>
+        <in>cutil.cpp</in>
+        <in>cutil_class.cpp</in>
+        <in>danerror.cpp</in>
+        <in>efio.cpp</in>
+        <in>emalloc.cpp</in>
+        <in>freelist.cpp</in>
+        <in>listio.cpp</in>
+        <in>oldheap.cpp</in>
+        <in>oldlist.cpp</in>
+        <in>structures.cpp</in>
+        <in>tessarray.cpp</in>
+      </df>
+      <df name="dict">
+        <in>context.cpp</in>
+        <in>dawg.cpp</in>
+        <in>dict.cpp</in>
+        <in>hyphen.cpp</in>
+        <in>permdawg.cpp</in>
+        <in>permute.cpp</in>
+        <in>states.cpp</in>
+        <in>stopper.cpp</in>
+        <in>trie.cpp</in>
+      </df>
+      <df name="image">
+        <in>image.cpp</in>
+        <in>imgs.cpp</in>
+        <in>imgtiff.cpp</in>
+        <in>svshowim.cpp</in>
+      </df>
+      <df name="neural_networks">
+        <df name="runtime">
+          <in>input_file_buffer.cpp</in>
+          <in>neural_net.cpp</in>
+          <in>neuron.cpp</in>
+          <in>sigmoid_table.cpp</in>
+        </df>
+      </df>
+      <df name="textord">
+        <in>alignedblob.cpp</in>
+        <in>bbgrid.cpp</in>
+        <in>blkocc.cpp</in>
+        <in>blobgrid.cpp</in>
+        <in>ccnontextdetect.cpp</in>
+        <in>cjkpitch.cpp</in>
+        <in>colfind.cpp</in>
+        <in>colpartition.cpp</in>
+        <in>colpartitiongrid.cpp</in>
+        <in>colpartitionset.cpp</in>
+        <in>devanagari_processing.cpp</in>
+        <in>drawedg.cpp</in>
+        <in>drawtord.cpp</in>
+        <in>edgblob.cpp</in>
+        <in>edgloop.cpp</in>
+        <in>equationdetectbase.cpp</in>
+        <in>fpchop.cpp</in>
+        <in>gap_map.cpp</in>
+        <in>imagefind.cpp</in>
+        <in>linefind.cpp</in>
+        <in>makerow.cpp</in>
+        <in>oldbasel.cpp</in>
+        <in>pithsync.cpp</in>
+        <in>pitsync1.cpp</in>
+        <in>scanedg.cpp</in>
+        <in>sortflts.cpp</in>
+        <in>strokewidth.cpp</in>
+        <in>tabfind.cpp</in>
+        <in>tablefind.cpp</in>
+        <in>tablerecog.cpp</in>
+        <in>tabvector.cpp</in>
+        <in>textlineprojection.cpp</in>
+        <in>textord.cpp</in>
+        <in>topitch.cpp</in>
+        <in>tordmain.cpp</in>
+        <in>tospace.cpp</in>
+        <in>tovars.cpp</in>
+        <in>underlin.cpp</in>
+        <in>wordseg.cpp</in>
+        <in>workingpartset.cpp</in>
+      </df>
+      <df name="training">
+        <in>ambiguous_words.cpp</in>
+        <in>classifier_tester.cpp</in>
+        <in>cntraining.cpp</in>
+        <in>combine_tessdata.cpp</in>
+        <in>commontraining.cpp</in>
+        <in>dawg2wordlist.cpp</in>
+        <in>mergenf.cpp</in>
+        <in>mftraining.cpp</in>
+        <in>shapeclustering.cpp</in>
+        <in>tessopt.cpp</in>
+        <in>unicharset_extractor.cpp</in>
+        <in>wordlist2dawg.cpp</in>
+      </df>
+      <df name="viewer">
+        <in>scrollview.cpp</in>
+        <in>svmnode.cpp</in>
+        <in>svpaint.cpp</in>
+        <in>svutil.cpp</in>
+      </df>
+      <df name="wordrec">
+        <in>associate.cpp</in>
+        <in>bestfirst.cpp</in>
+        <in>chop.cpp</in>
+        <in>chopper.cpp</in>
+        <in>closed.cpp</in>
+        <in>drawfx.cpp</in>
+        <in>findseam.cpp</in>
+        <in>gradechop.cpp</in>
+        <in>heuristic.cpp</in>
+        <in>language_model.cpp</in>
+        <in>makechop.cpp</in>
+        <in>matchtab.cpp</in>
+        <in>olutil.cpp</in>
+        <in>outlines.cpp</in>
+        <in>pieces.cpp</in>
+        <in>plotedges.cpp</in>
+        <in>plotseg.cpp</in>
+        <in>render.cpp</in>
+        <in>segsearch.cpp</in>
+        <in>tface.cpp</in>
+        <in>wordclass.cpp</in>
+        <in>wordrec.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O3"/>
+        <element flagsID="1" commonFlags="-O3 -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <ccTool>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+              <Elem>NDEBUG</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="api/baseapi.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="api/capi.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="api/tesseractmain.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="ccmain/adaptions.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/applybox.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/control.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/cube_control.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/cube_reco_context.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/cubeclassifier.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/docqual.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/equationdetect.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/fixspace.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/fixxht.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/imgscale.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/ltrresultiterator.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/osdetect.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/output.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/pageiterator.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/pagesegmain.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/pagewalk.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/paragraphs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/paramsd.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/pgedit.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/recogtraining.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/reject.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/resultiterator.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/scaleimg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/tessbox.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/tessedit.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/tesseract_cube_combiner.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/tesseractclass.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/tessvars.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/tfacepp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/thresholder.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccmain/werdit.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/blobbox.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/blobs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/blread.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/boxread.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/boxword.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/ccstruct.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/coutln.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/detlinefit.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/dppoint.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/fontinfo.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/genblob.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/linlsq.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/matrix.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/mod128.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/normalis.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/ocrblock.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/ocrpara.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/ocrrow.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/otsuthr.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/pageres.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/pdblock.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/points.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/polyaprx.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/polyblk.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/publictypes.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/quadlsq.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/quadratc.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/quspline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/ratngs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/rect.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/rejctmap.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/seam.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/split.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/statistc.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/stepblob.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/vecfuncs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccstruct/werd.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/ambigs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/basedir.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/bits16.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/bitvector.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/ccutil.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/clst.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/elst.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/elst2.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/errcode.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/globaloc.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/hashfn.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/indexmapbidi.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/mainblk.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/memry.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/params.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/serialis.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/strngs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/tessdatamanager.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/tprintf.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/unichar.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/unicharmap.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/unicharset.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="ccutil/unicodes.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/adaptive.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/adaptmatch.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/blobclass.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/chartoname.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/classify.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/cluster.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/clusttool.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/cutoffs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/errorcounter.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/extract.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/featdefs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/flexfx.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/float2int.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/fpoint.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/fxdefs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/intfeaturedist.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/intfeaturemap.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/intfeaturespace.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/intfx.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/intmatcher.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/intproto.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/kdtree.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/mastertrainer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/mf.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/mfdefs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/mfoutline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/mfx.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/normfeat.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/normmatch.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/ocrfeatures.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/outfeat.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/picofeat.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/protos.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/sampleiterator.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/shapetable.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/speckle.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/tessclassifier.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/trainingsample.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/trainingsampleset.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="classify/xform2d.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/altlist.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/beam_search.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/bmp_8.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/cached_file.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/char_altlist.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/char_bigrams.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/char_samp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/char_samp_enum.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/char_samp_set.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/char_set.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/classifier_factory.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/con_comp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/conv_net_classifier.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/cube_line_object.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/cube_line_segmenter.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/cube_object.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/cube_search_object.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/cube_tuning_params.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/cube_utils.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/feature_bmp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/feature_chebyshev.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/feature_hybrid.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/hybrid_neural_net_classifier.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/search_column.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/search_node.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/tess_lang_mod_edge.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/tess_lang_model.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/word_altlist.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/word_list_lang_model.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/word_size_model.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cube/word_unigrams.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/bitvec.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/callcpp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/cutil.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/cutil_class.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/danerror.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/efio.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/emalloc.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/freelist.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/listio.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/oldheap.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/oldlist.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/structures.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="cutil/tessarray.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/context.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/dawg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/dict.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/hyphen.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/permdawg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/permute.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/states.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/stopper.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="dict/trie.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <folder path="0/api">
+        <ccTool>
+          <incDir>
+            <pElem>api</pElem>
+            <pElem>.</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>textord</pElem>
+            <pElem>dict</pElem>
+            <pElem>classify</pElem>
+            <pElem>ccmain</pElem>
+            <pElem>wordrec</pElem>
+            <pElem>cutil</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LOCALEDIR="/usr/local/share/locale"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/ccmain">
+        <ccTool>
+          <incDir>
+            <pElem>ccmain</pElem>
+            <pElem>.</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>classify</pElem>
+            <pElem>dict</pElem>
+            <pElem>wordrec</pElem>
+            <pElem>cutil</pElem>
+            <pElem>neural_networks/runtime</pElem>
+            <pElem>cube</pElem>
+            <pElem>textord</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+            <Elem>USE_STD_NAMESPACE</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/ccstruct">
+        <ccTool>
+          <incDir>
+            <pElem>ccstruct</pElem>
+            <pElem>.</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>cutil</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/ccutil">
+        <ccTool>
+          <incDir>
+            <pElem>ccutil</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+            <Elem>TESSDATA_PREFIX=/usr/local/share/</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/classify">
+        <ccTool>
+          <incDir>
+            <pElem>classify</pElem>
+            <pElem>.</pElem>
+            <pElem>cutil</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>dict</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/cube">
+        <ccTool>
+          <incDir>
+            <pElem>cube</pElem>
+            <pElem>.</pElem>
+            <pElem>cutil</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>dict</pElem>
+            <pElem>ccmain</pElem>
+            <pElem>classify</pElem>
+            <pElem>textord</pElem>
+            <pElem>wordrec</pElem>
+            <pElem>neural_networks/runtime</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+            <Elem>USE_STD_NAMESPACE</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/cutil">
+        <ccTool>
+          <incDir>
+            <pElem>cutil</pElem>
+            <pElem>.</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>viewer</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/dict">
+        <ccTool>
+          <incDir>
+            <pElem>dict</pElem>
+            <pElem>.</pElem>
+            <pElem>cutil</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>viewer</pElem>
+            <pElem>image</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/image">
+        <ccTool>
+          <incDir>
+            <pElem>image</pElem>
+            <pElem>.</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>viewer</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/neural_networks">
+        <ccTool>
+          <incDir>
+            <pElem>neural_networks/runtime</pElem>
+            <pElem>.</pElem>
+            <pElem>cutil</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>dict</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+            <Elem>USE_STD_NAMESPACE</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/textord">
+        <ccTool>
+          <incDir>
+            <pElem>textord</pElem>
+            <pElem>.</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>ccmain</pElem>
+            <pElem>wordrec</pElem>
+            <pElem>api</pElem>
+            <pElem>cutil</pElem>
+            <pElem>classify</pElem>
+            <pElem>dict</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/training">
+        <ccTool>
+          <incDir>
+            <pElem>training</pElem>
+            <pElem>.</pElem>
+            <pElem>ccmain</pElem>
+            <pElem>api</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>image</pElem>
+            <pElem>viewer</pElem>
+            <pElem>textord</pElem>
+            <pElem>dict</pElem>
+            <pElem>classify</pElem>
+            <pElem>display</pElem>
+            <pElem>wordrec</pElem>
+            <pElem>cutil</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>USE_STD_NAMESPACE</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/viewer">
+        <ccTool>
+          <incDir>
+            <pElem>viewer</pElem>
+            <pElem>.</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/wordrec">
+        <ccTool>
+          <incDir>
+            <pElem>wordrec</pElem>
+            <pElem>.</pElem>
+            <pElem>ccstruct</pElem>
+            <pElem>ccutil</pElem>
+            <pElem>cutil</pElem>
+            <pElem>classify</pElem>
+            <pElem>image</pElem>
+            <pElem>dict</pElem>
+            <pElem>viewer</pElem>
+            <pElem>/usr/local/include/leptonica</pElem>
+            <pElem>/usr/include/leptonica</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="image/image.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="image/imgs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="image/imgtiff.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="image/svshowim.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="neural_networks/runtime/input_file_buffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="neural_networks/runtime/neural_net.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="neural_networks/runtime/neuron.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="neural_networks/runtime/sigmoid_table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/alignedblob.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/bbgrid.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/blkocc.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/blobgrid.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/ccnontextdetect.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/cjkpitch.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/colfind.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/colpartition.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/colpartitiongrid.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/colpartitionset.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/devanagari_processing.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/drawedg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/drawtord.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/edgblob.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/edgloop.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/equationdetectbase.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/fpchop.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/gap_map.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/imagefind.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/linefind.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/makerow.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/oldbasel.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/pithsync.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/pitsync1.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/scanedg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/sortflts.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/strokewidth.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/tabfind.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/tablefind.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/tablerecog.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/tabvector.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/textlineprojection.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/textord.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/topitch.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/tordmain.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/tospace.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/tovars.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/underlin.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/wordseg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="textord/workingpartset.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="training/ambiguous_words.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/classifier_tester.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/cntraining.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/combine_tessdata.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/commontraining.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="training/dawg2wordlist.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/mergenf.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/mftraining.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/shapeclustering.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/tessopt.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="training/unicharset_extractor.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="training/wordlist2dawg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="viewer/scrollview.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="viewer/svmnode.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="viewer/svpaint.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="viewer/svutil.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/associate.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/bestfirst.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/chop.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/chopper.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/closed.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/drawfx.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/findseam.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/gradechop.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/heuristic.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/language_model.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/makechop.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/matchtab.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/olutil.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/outlines.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/pieces.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/plotedges.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/plotseg.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/render.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/segsearch.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/tface.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/wordclass.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="wordrec/wordrec.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
