@@ -82,7 +82,7 @@ namespace tesseract {
                         //tprintf("%s : %d\n",best_choice->unichar_string().string(), pix->data);
                         //tprintf("%d\n", *word_count);
                         snprintf(buf_i, sizeof(buf_i), "%07d", *word_count);
-                        snprintf(buf, sizeof(buf), "/tmp/%s/%s/%s.jpg", id_user, id_img, buf_i);
+                        snprintf(buf, sizeof(buf), "%s%s/%s.jpg", id_user, id_img, buf_i);
                         pixWrite(buf, pix, IFF_JFIF_JPEG);
                         pixDestroy(&pix);
                         boxDestroy(&bbox);
@@ -106,8 +106,8 @@ namespace tesseract {
                         text += " ";
                         res_it.forward();
                         eol = res_it.row() != res_it.prev_row();
-                        char outfile[256] = "/tmp/";
-                        snprintf(outfile, sizeof(outfile), "/tmp/%s/%s/%s.xml", id_user, id_img, buf_i);
+                        char outfile[256] = "";
+                        snprintf(outfile, sizeof(outfile), "%s%s/%s.xml", id_user, id_img, buf_i);
                         FILE* fout = fopen(outfile, "wb");
                         if (fout == NULL) {
                             fprintf(stderr, "Cannot create output file %s\n", outfile);
