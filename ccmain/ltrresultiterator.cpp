@@ -91,9 +91,9 @@ namespace tesseract {
                         
                         snprintf(word_certainty, sizeof(word_certainty), "%f", best_choice->certainty());
                         
-                        word_info_xml += "<word_info>\n <text>";
+                        word_info_xml += "<word_info>\n <text><![CDATA[";
                         word_info_xml += best_choice->unichar_string().string();
-                        word_info_xml += "</text>\n<word_certainty>";
+                        word_info_xml += "]]></text>\n<word_certainty>";
                         word_info_xml += word_certainty;
                         word_info_xml += "</word_certainty>\n<img_id>";
                         word_info_xml += buf_i;

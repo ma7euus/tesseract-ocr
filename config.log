@@ -599,7 +599,7 @@ configure: failed program was:
 configure:16000: result: no
 configure:16131: checking for library containing sem_init
 configure:16162: g++ -o conftest -g -O2   conftest.cpp  >&5
-/tmp/ccAO41P5.o: In function `main':
+/tmp/ccXGNHLA.o: In function `main':
 /home/mateus/tesseract-ocr/conftest.cpp:38: undefined reference to `sem_init'
 collect2: error: ld returned 1 exit status
 configure:16162: $? = 1
